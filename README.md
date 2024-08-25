@@ -14,9 +14,8 @@ Includes scripts for visualizing the training process and the comparison between
 Scripts to train the model on collocation points and test its accuracy.
 
 ## Installation
-To get started with this project, clone the repository and install the required dependencies:
-git clone https://github.com/niteshsilwal01/Damped Harmonic Oscillator.git
-pip install -r requirements.txt
+To get started with this project, clone the repository:
+[git clone https://github.com/niteshsilwal01/Damped Harmonic Oscillator.git](https://github.com/niteshsilwal01/Physics-Informed-Machine-Learning.git) and install the required dependencies: pip install -r requirements.txt
 
 ## Usage
 The main script _Oscillator.py_ trains the PINN on the SHO problem. You can adjust the parameters, such as the damping coefficient, natural frequency, and neural network architecture.
