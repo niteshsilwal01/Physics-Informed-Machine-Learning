@@ -20,7 +20,7 @@ x_plot = torch.linspace(0, 1, 500).view(-1, 1)
 u_analytical = Analytical_Solution.analytical_solution(d, w0, x_plot).float()
 
 print('Training Started !!')
-train.train_and_save(model, optimizer, x_train, x_plot, u_analytical)
+train.train_and_save(model, optimizer, x_train, x_plot, u_analytical, mu, k)
 print('Training Ended !!')
 
 # Directory containing saved frames
@@ -30,3 +30,5 @@ gif_name='Simple Harmonic Oscillator.gif'
 print(f'Creating {gif_name} GIF file inside {output_dir} .....')
 Create_GIF.create_gif(output_dir)
 print(f'Successfully created GIF file !!')
+
+
