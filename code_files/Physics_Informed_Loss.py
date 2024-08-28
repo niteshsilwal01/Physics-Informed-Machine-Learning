@@ -1,7 +1,7 @@
 import torch
 
 # Define the physics-informed loss function
-def physics_loss(model, x):
+def physics_loss(model, x, mu, k):
     theta = model(x)
 
     #dx/dt
@@ -11,6 +11,6 @@ def physics_loss(model, x):
     theta_tt = torch.autograd.grad(theta_t, x, torch.ones_like(theta_t), create_graph=True)[0]
 
     physics = theta_tt + mu*theta_t + k*theta
-    physics = (1e-4)*torch.mean(physics**2)
+    physics_val = (1e-4)*torch.mean(physics**2)
 
-    return torch.mean(physics**2)
+    return physics_val
