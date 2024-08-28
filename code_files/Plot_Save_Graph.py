@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import os
 
 # Directory to save frames
-output_dir = 'pendulum_frames'
+output_dir = 'oscillation_frames'
 os.makedirs(output_dir, exist_ok=True)
 
 def save_frame(epoch, loss, x_plot, u_pinn, u_analytical):
