@@ -17,7 +17,11 @@ Includes scripts for visualizing the training process and the comparison between
 Scripts to train the model on collocation points and test its accuracy.
 
 ## Usage
-The main script _Oscillator.py_ trains the PINN on the SHO problem. You can adjust the parameters, such as the damping coefficient, natural frequency, and neural network architecture.
+The main script _Oscillator.py_ trains the PINN on the SHO problem. Just run it to use the code.
+```bash
+python Oscillatoy.py
+```
+You can adjust the parameters, such as the damping coefficient, natural frequency, and neural network architecture.
 
 ## Background
 Physics-Informed Neural Networks (PINNs) are a novel approach that incorporates physical laws as part of the neural network's training process. This method is particularly useful for solving differential equations where traditional data-driven models may fail to generalize.
@@ -30,6 +34,7 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 ## Installation
 To clone the repository and install the required packages, use:
+
 ```bash
 git clone https://github.com/niteshsilwal01/Damped%20Harmonic%20Oscillator.git
 pip install -r requirements.txt
