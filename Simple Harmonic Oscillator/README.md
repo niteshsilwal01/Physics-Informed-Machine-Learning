@@ -1,8 +1,8 @@
 # Physics-Informed Machine Learning for Simple Harmonic Oscillator
 This repository contains the implementation of a Physics-Informed Neural Network (PINN) designed to solve and simulate the behavior of a Simple Harmonic Oscillator (SHO). The SHO is a fundamental physical system characterized by periodic motion, often described by second-order differential equations. This project leverages the power of machine learning by embedding the physical laws governing the SHO directly into the neural network's architecture.
 
-![Simple Harmonic Oscillator](https://github.com/niteshsilwal01/Physics-Informed-Machine-Learning/blob/main/oscillation_frames/Damped_oscillator.gif?raw=true)
-![Simple Harmonic Oscillator](https://github.com/niteshsilwal01/Physics-Informed-Machine-Learning/blob/main/oscillation_frames/Simple%20Harmonic%20Oscillator.gif?raw=true)
+![](https://github.com/niteshsilwal01/Physics-Informed-Machine-Learning/blob/main/Simple%20Harmonic%20Oscillator/oscillation_frames/Damped_oscillator.gif?raw=true)
+![](https://github.com/niteshsilwal01/Physics-Informed-Machine-Learning/blob/main/Simple%20Harmonic%20Oscillator/oscillation_frames/Simple%20Harmonic%20Oscillator.gif?raw=true)
 
 ## Features
 ### PINN Implementation: 
