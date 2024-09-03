@@ -36,5 +36,5 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 To clone the repository and install the required packages, use:
 
 ```bash
-git clone https://github.com/niteshsilwal01/Damped%20Harmonic%20Oscillator.git
+git clone https://github.com/niteshsilwal01/Physics-Informed-Machine-Learning.git
 pip install -r requirements.txt
